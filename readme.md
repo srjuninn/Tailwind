@@ -1,4 +1,4 @@
-# 📚 Repositório: Pesquisa sobre Tailwind CSS Utility-First
+# 📚 Pesquisa sobre Tailwind CSS Utility-First
 
 Este repositório foi criado para reunir minhas pesquisas e experimentos sobre o tema **Tailwind CSS**, com foco na abordagem *Utility-First*, **sem dependência de JavaScript**.
 
