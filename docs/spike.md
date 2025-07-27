@@ -1,4 +1,4 @@
-# Estudo de Caso – [Tailwind CSS: abordagem utility-first sem necessidade de JS.]
+# Estudo de Caso – Tailwind CSS: abordagem utility-first sem necessidade de JS.
 
 > **Aluno(a):** Ryan Ferreira da Silva  
 > **Turma:** Desenvolvedor Front-End  
