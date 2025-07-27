@@ -1,24 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ["./**/*.html"],
   theme: {
     extend: {
+      fontFamily:{
+        sans:['Inter',],
+      },
       colors:{
-       primary: '#4CAF4F',
-       neutralSilver: '#F5F7FA',
-       neutralWhite: '#ffffff',
+        primary: '#4CAF4F', 
+        neutralSilver: '#F5F7FA'
       },
-      gap: {
-        '50': '50px',
-        '14': '14px',
-        '104': '104px',
+      padding:{
+        '10px': '10px',
+        '20px': '20px',
       },
-      padding: {
-        '10': '10px',
-        '20': '20px',
-      }
     },
   },
   plugins: [],
-}
-
+};
