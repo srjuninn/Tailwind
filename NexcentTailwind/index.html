@@ -1,50 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="h-full">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexcent</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+  <link rel="stylesheet" href="./dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header class="flex items-center justify-around bg-neutralSilver py-5 px-0">
-        <div class="logo">
-            <img src="./images/Logo.svg" alt="logo da Nexcent">
-        </div>
-        <nav class="navHeader">
-            <ul class="flex list-none gap-50">
-                <li><a href="#" class="font-semibold">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Feature</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">FAQ</a></li>
+    <header class="h-20 flex justify-around items-center bg-neutralSilver">
+        <img src="./src/assets/image/Logo.svg" alt="logotipo da empresa nexcent">
+        <nav>
+            <ul class="flex gap-12">
+                <li>
+                    <a href="" class="font-semibold text-[#18191F]">Home</a>
+                </li>
+                <li>
+                    <a href="">Service</a>
+                </li>
+                <li>
+                    <a href="">Feature</a>
+                </li>
+                <li>
+                    <a href="">Product</a>
+                </li>
+                <li>
+                    <a href="">Testimonial</a>
+                </li>
+                <li>
+                    <a href="">FAQ</a>
+                </li>
             </ul>
         </nav>
-        <div class="buttonHeader flex gap-14">
-            <button class="buttonLogin bg-neutralSilver py-1 px-20"><a href=""
-                    class="text-primary text-sm">Login</a></button>
-            <button class="buttonSignUp bg-primary rounded-md py-1 px-20"><a href=""
-                    class="text-neutralWhite text-sm font-bold">Sign Up</a></button>
+        <div class="buttonsWrapper">
+            <button class="py-10px px-10px text-primary">Login</button>
+            <button class="py-10px px-20px rounded-md bg-primary text-white">Sign Up</button>
         </div>
     </header>
-    <main class="flex justify-center items-center gap-104 p-24 bg-neutralSilver">
-        <div class="contentLessons">
-            <h1>Lessons and insights <span>from 8 years</span></h1>
-            <p>Where to grow your business as a photographer: site or social media?</p>
-            <button class="buttonPrimary">Register</button>
-        </div>
-        <div class="imgLessons">
-            <img src="./images/heroImage.svg" alt="hero image">
-        </div>
+    <main class="flex justify-center items-center gap-[104px] bg-neutralSilver py-24">
+        <aside class="flex flex-col gap-4">
+            <h1 class="font-semibold text-[64px] w-[657px] text-[#4D4D4D]">Lessons and insights <span class="text-primary">from 8 years</span></h1>
+            <p class="text-[#717171]">Where to grow your business as a photographer: site or social media?</p>
+            <button class="mt-4 w-32 py-[14px] px-[32px] bg-primary rounded text-white">Register</button>
+        </aside>
+        <img src="./src/assets/image/heroMainImage.svg" alt="imagem ilustrativa de um homem usando o notebook">
     </main>
 </body>
-
 </html>
