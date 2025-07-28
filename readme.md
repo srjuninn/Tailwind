@@ -18,5 +18,5 @@ Demonstrar como é possível utilizar Tailwind CSS de forma produtiva e direta n
 - [Tailwind CSS - Site Oficial](https://tailwindcss.com/)
 - [Documentação Oficial](https://tailwindcss.com/docs)
 - [Apresentação](https://www.canva.com/design/DAGuYKg6vNY/I8u1YlWjisPk4OGMFn8xxQ/edit?utm_content=DAGuYKg6vNY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
+- [Nexcent Figma](https://www.figma.com/community/file/1222060007934600841/minimal-landing-page-design-website-home-page-design-agency-website-ui-design)
 ---
