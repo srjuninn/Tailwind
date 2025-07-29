@@ -1,51 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" class="h-full">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tailwind</title>
-  <link rel="stylesheet" href="./dist/output.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Nexcent</title>
+    <link rel="shortcut icon" href="./src/assets/image/favIcon.svg" type="image/x-icon">
 </head>
 <body>
-    <header class="h-20 flex justify-around items-center bg-neutralSilver">
-        <img src="./src/assets/image/Logo.svg" alt="logotipo da empresa nexcent">
-        <nav>
-            <ul class="flex gap-12">
-                <li>
-                    <a href="" class="font-semibold text-[#18191F]">Home</a>
-                </li>
-                <li>
-                    <a href="">Service</a>
-                </li>
-                <li>
-                    <a href="">Feature</a>
-                </li>
-                <li>
-                    <a href="">Product</a>
-                </li>
-                <li>
-                    <a href="">Testimonial</a>
-                </li>
-                <li>
-                    <a href="">FAQ</a>
-                </li>
+    <header class="h-[84px] flex justify-around items-center bg-[#F5F7FA]">
+        <img src="./src/assets/image/logotypeHeader.svg" alt="logotipo da empresa nexcent">
+        <nav class="flex">
+            <ul class="flex items-center justify-center gap-[50px]">
+                <li class="transform hover:-translate-y-1 transition"><a href="" class="text-[#18191F] font-semibold hover:text-[#4CAF4F]">Home</a></li>
+                <li class="transform hover:-translate-y-1 transition"><a href="" class="text-[#18191F] hover:text-[#4CAF4F]">Service</a></li>
+                <li class="transform hover:-translate-y-1 transition"><a href="" class="text-[#18191F] hover:text-[#4CAF4F]">Feature</a></li>
+                <li class="transform hover:-translate-y-1 transition"><a href="" class="text-[#18191F] hover:text-[#4CAF4F]">Product</a></li>
+                <li class="transform hover:-translate-y-1 transition"><a href="" class="text-[#18191F] hover:text-[#4CAF4F]">Testimonial</a></li>
+                <li class="transform hover:-translate-y-1 transition"><a href="" class="text-[#18191F] hover:text-[#4CAF4F]">FAQ</a></li>
             </ul>
         </nav>
-        <div class="buttonsWrapper">
-            <button class="py-10px px-10px text-primary">Login</button>
-            <button class="py-10px px-20px rounded-md bg-primary text-white">Sign Up</button>
+        <div class="buttonsWrapper" class="flex justify-center items-center gap-[14px]">
+            <button class="text-[#4CAF4F] py-[10px] px-[20px] transform hover:scale-[1.2] transition">Login</button>
+            <button class="text-white bg-[#4CAF4F] py-[10px] px-[20px] rounded-[6px] hover:bg-[#F5F7FA] hover:text-[#4CAF4F] transform hover:scale-[1.1] transition">Sign Up</button>
         </div>
     </header>
-    <main class="flex justify-center items-center gap-[104px] bg-neutralSilver py-24">
-        <aside class="flex flex-col gap-4">
-            <h1 class="font-semibold text-[64px] w-[657px] text-[#4D4D4D]">Lessons and insights <span class="text-primary">from 8 years</span></h1>
-            <p class="text-[#717171]">Where to grow your business as a photographer: site or social media?</p>
-            <button class="mt-4 w-32 py-[14px] px-[32px] bg-primary rounded text-white">Register</button>
+    <main class="flex justify-center items-center py-[96px] pb-96px gap-[104px] bg-[#F5F7FA]">
+        <aside class="w-[657px] gap-[16px]">
+            <h1 class="text-[64px] text-[#4D4D4D]">Lessons and insights <span class="text-[#4CAF4F]">from 8 years</span></h1>
+            <p class="text-[#717171] font-[18px]">Where to grow your business as a photographer: site or social media?</p>
+            <button class="text-[#ffffff] bg-[#4CAF4F] py-[14px] px-[32px] rounded-[4px] mt-[32px]  hover:bg-[#F5F7FA] hover:text-[#4CAF4F] transform hover:scale-[1.1] transition">Register</button>
         </aside>
-        <img src="./src/assets/image/heroMainImage.svg" alt="imagem ilustrativa de um homem usando o notebook">
+        <img src="./src/assets/image/heroImageMain.svg" alt="imagem ilustrativa de um homem usando o notebook">
     </main>
 </body>
 </html>
